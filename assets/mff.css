@@ -1,0 +1,50 @@
+/* Male Futures Foundation additions, loaded after site.css */
+header.site .wrap{height:76px}
+.brand-mark{display:flex;align-items:center}
+.brand-mark svg.wm{display:block;height:54px;width:auto;color:var(--ink)}
+@media(min-width:768px){header.site .wrap{height:100px}.brand-mark svg.wm{height:72px}}
+footer.site svg.wm-foot{width:240px;height:auto;color:var(--paper)}
+@media(min-width:768px){footer.site svg.wm-foot{width:360px}}
+@media(max-width:767px){footer.site svg.wm-foot{width:200px}}
+.eyebrow{margin:0 0 20px;font-size:14px;font-weight:700;letter-spacing:.2em;text-transform:uppercase;color:var(--clay-deep)}
+/* stats band */
+.stats{background:var(--ink);color:var(--paper)}
+.stats .wrap{padding-top:88px;padding-bottom:72px}
+@media(min-width:768px){.stats .wrap{padding-top:120px;padding-bottom:96px}}
+.stats h2{max-width:20ch}
+.stats .lead{color:rgb(244 238 223/.85)}
+.stat-grid{margin-top:56px;display:grid;gap:0;border-top:1px solid rgb(244 238 223/.25)}
+@media(min-width:768px){.stat-grid{grid-template-columns:repeat(3,1fr);gap:48px;border-top:0;margin-top:72px}}
+.stat{padding:28px 0;border-bottom:1px solid rgb(244 238 223/.25)}
+@media(min-width:768px){.stat{border-bottom:0;border-top:1px solid rgb(244 238 223/.25);padding:32px 0 0}}
+.stat b{display:block;font-size:64px;line-height:1;font-weight:900;letter-spacing:-.05em;color:var(--paper)}
+@media(min-width:768px){.stat b{font-size:88px}}
+.stat b em{font-style:normal;color:var(--clay)}
+.stat p{margin-top:14px;max-width:30ch;font-size:17px;line-height:1.55;color:rgb(244 238 223/.88)}
+.srcnote{margin-top:48px;max-width:70ch;font-size:13px;line-height:1.6;color:rgb(244 238 223/.7)}
+.srcnote a{text-decoration:underline;text-underline-offset:3px}
+/* imd band */
+.imdband .wrap{align-items:start}
+.imdband .acts{margin-top:32px;display:flex;flex-wrap:wrap;gap:16px 28px;align-items:center}
+.imdband .cta-hero{background:var(--clay-deep)}
+.imdband .cta-hero:hover{background:var(--paper);color:var(--ink)}
+.imdband .cta-link{color:var(--paper)}
+.imdband .who{max-width:52ch}
+/* support cards */
+.give{margin-top:56px;display:grid;gap:20px}
+@media(min-width:768px){.give{grid-template-columns:repeat(3,1fr);gap:24px;margin-top:72px}}
+.give>div{padding:36px;border:1px solid rgb(11 74 53/.4);background:var(--paper)}
+.give>div:first-child{background:var(--ink);color:var(--paper)}
+.give h3{font-size:26px;font-weight:900;letter-spacing:-.04em}
+.give p{margin-top:14px;font-size:17px;line-height:1.6;color:rgb(11 74 53/.85)}
+.give>div:first-child p{color:rgb(244 238 223/.88)}
+.contactline{margin-top:32px;font-size:17px;line-height:1.8}
+.contactline a{font-weight:700;text-decoration:underline;text-decoration-color:var(--clay);text-underline-offset:4px}
+/* helpline strip */
+.help{background:var(--paper-deep);border-top:1px solid var(--line)}
+.help .wrap{display:grid;gap:12px;padding-top:40px;padding-bottom:40px}
+@media(min-width:768px){.help .wrap{grid-template-columns:auto 1fr;gap:48px;align-items:center}}
+.help h2{font-size:24px;letter-spacing:-.03em}
+.help p{font-size:17px;line-height:1.6;color:rgb(11 74 53/.9)}
+.help a{font-weight:800;text-decoration:underline;text-decoration-color:var(--clay);text-underline-offset:4px}
+.legal-line{max-width:70ch}
